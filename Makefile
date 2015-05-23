@@ -2,9 +2,6 @@ SRC_LOKI := loki_flash.c loki_patch.c loki_find.c loki_unlok.c main.c
 OBJ_LOKI = $(SRC_LOKI:.c=.o)
 MODULE_LOKI := loki_tool
 
-CC := arm-linux-androideabi-gcc
-CC_STRIP := arm-linux-androideabi-strip
-
 CFLAGS += -g -static -Wall
 #$(LDFLAGS) +=
 
